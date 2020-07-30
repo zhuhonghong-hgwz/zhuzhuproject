@@ -24,13 +24,13 @@ def fight():
              # 每循环一次血量就会减少，你的血量等于剩余血量减去我的攻击力
             your_hp = your_hp -my_power
              #如果我的血量先为0就执行下面的print信息，并跳出while循环
-            if (my_hp == 0):
+            if (my_hp <= 0):
                 print("我的剩余血量是：", my_hp)
                 print("你的剩余血量是：", your_hp)
                 print("我输了")
                 break
             # 如果你的血量先为0就执行下面的print信息，并跳出while循环
-            elif (your_hp == 0):
+            elif (your_hp <= 0):
                 print("我的剩余血量是：", my_hp)
                 print("你的剩余血量是：", your_hp)
                 print("你输了")
@@ -39,4 +39,3 @@ def fight():
 
  #调用fight函数
 fight()
-
