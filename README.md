@@ -10,3 +10,9 @@
 ./object_practice/tonglao.py
 ./object_practice/xuzhu.py
 
+
+#pytest的使用
+./pythoncode/calc.py
+./testing/test_calc.py
+./testing/datas/calc.yml
+
