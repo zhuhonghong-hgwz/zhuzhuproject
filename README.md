@@ -2,17 +2,18 @@
 ##提交了一个回合制游戏代码作业
 ./python_practice/game.py
 
-
-
 #第二次作业
 #面向对象练习，作业1和作业2的路径：
 ./object_practice/my_love.py
 ./object_practice/tonglao.py
 ./object_practice/xuzhu.py
 
-
-#pytest的使用
+#第三次作业
+#pytest parametirze的使用
 ./pythoncode/calc.py
 ./testing/test_calc.py
 ./testing/datas/calc.yml
+
+#第四次作业
+#pytest fixture使用
 
