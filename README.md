@@ -16,4 +16,17 @@
 
 #第四次作业
 #pytest fixture使用
+./pythoncode/calc.py
+./testing/test_calc.py
+./testing/datas/calc.yml
+./testing/conftest.py
+
+#第五次作业
+#pytest plugin使用
+./pythoncode/calc.py
+./testing/test_calc.py
+./testing/datas/calc.yml
+./testing/conftest.py
+
+
 

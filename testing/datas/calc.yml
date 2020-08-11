@@ -36,16 +36,16 @@ div:
     - [100,-0.1,-1000]
     - [.,.,'error']
   myid:
-      - 'int'
-      - 'bigint'
-      - 'float'
-      - 'minus'
-      - 'min'
-      - 'mibint'
-      - 'zro'
-      - 'minint'
-      - 'minbigint'
-      - 'notnumber'
+    - 'int'
+    - 'bigint'
+    - 'float'
+    - 'minus'
+    - 'min'
+    - 'mibint'
+    - 'zro'
+    - 'minint'
+    - 'minbigint'
+    - 'notnumber'
 
 sub:
   datas:
@@ -60,16 +60,16 @@ sub:
     - [100,-0.1,100.1]
     - [.,.,'error']
   myid:
-      - 'int'
-      - 'bigint'
-      - 'float'
-      - 'minus'
-      - 'min'
-      - 'mibint'
-      - 'zro'
-      - 'minint'
-      - 'minbigint'
-      - 'notnumber'
+    - 'int'
+    - 'bigint'
+    - 'float'
+    - 'minus'
+    - 'min'
+    - 'mibint'
+    - 'zro'
+    - 'minint'
+    - 'minbigint'
+    - 'notnumber'
 
 mul:
   datas:
@@ -84,13 +84,13 @@ mul:
     - [100,-0.1,-10]
     - [.,.,'error']
   myid:
-      - 'int'
-      - 'bigint'
-      - 'float'
-      - 'minus'
-      - 'min'
-      - 'mibint'
-      - 'zro'
-      - 'minint'
-      - 'minbigint'
-      - 'notnumber'
+    - 'int'
+    - 'bigint'
+    - 'float'
+    - 'minus'
+    - 'min'
+    - 'mibint'
+    - 'zro'
+    - 'minint'
+    - 'minbigint'
+    - 'notnumber'
