@@ -28,5 +28,8 @@
 ./testing/datas/calc.yml
 ./testing/conftest.py
 
+#第6次作业
+#cookies使用
+./test_selenium/test_weixin.py
 
 

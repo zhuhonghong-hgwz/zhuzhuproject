@@ -22,45 +22,45 @@ yamlfilepath = os.path.dirname(__file__) + "/datas/calc.yml"
 # 打开yaml文件读取相加的数
 with open(yamlfilepath, encoding='UTF-8') as f:
     # 读取yaml文件中key为add的value值，并赋值给datas
-    datas = yaml.safe_load(f)['add']
+    datas = yaml.safe_load(f)['calcdata']
     # 从读取的datas中获取key值为add_datas的value值,并赋值给adddatas
-    adddatas = datas['datas']
+    adddatas = datas['add']['datas']
     print(adddatas)
     # 从add_datas中获取key值为add_myid的value值，并赋值给addmyid
-    addmyid = datas['myid']
+    addmyid = datas['add']['myid']
     print(addmyid)
 
 # 打开yaml文件读取相除的数
-with open(yamlfilepath, encoding='UTF-8') as f:
+#with open(yamlfilepath, encoding='UTF-8') as f:
     # 读取yaml文件中key为div的value值，并赋值给datas
-    datas = yaml.safe_load(f)['div']
+    #datas = yaml.safe_load(f)['div']
     # 从读取的datas中获取key值为datas的value值,并赋值给divdatas
-    divatas = datas['datas']
+    divatas = datas['div']['datas']
     print(divatas)
     # 从datas中获取key值为myid的value值，并赋值给divmyid
-    divmyid = datas['myid']
+    divmyid = datas['div']['myid']
     print(divmyid)
 
 # 打开yaml文件读取相减的数
-with open(yamlfilepath, encoding='UTF-8') as f:
+#with open(yamlfilepath, encoding='UTF-8') as f:
     # 读取yaml文件中key为sub的value值，并赋值给datas
-    datas = yaml.safe_load(f)['sub']
+    #datas = yaml.safe_load(f)['sub']
     # 从读取的datas中获取key值为datas的value值,并赋值给divdatas
-    subdatas = datas['datas']
+    subdatas = datas['sub']['datas']
     print(subdatas)
     # 从datas中获取key值为myid的value值，并赋值给divmyid
-    submyid = datas['myid']
+    submyid = datas['sub']['myid']
     print(submyid)
 
 # 打开yaml文件读取相减的数
-with open(yamlfilepath, encoding='UTF-8') as f:
+#with open(yamlfilepath, encoding='UTF-8') as f:
     # 读取yaml文件中key为sub的value值，并赋值给datas
-    datas = yaml.safe_load(f)['mul']
+    #datas = yaml.safe_load(f)['mul']
     # 从读取的datas中获取key值为datas的value值,并赋值给divdatas
-    muldatas = datas['datas']
+    muldatas = datas['mul']['datas']
     print(muldatas)
     # 从datas中获取key值为myid的value值，并赋值给divmyid
-    mulmyid = datas['myid']
+    mulmyid = datas['mul']['myid']
     print(mulmyid)
 
 
