@@ -32,4 +32,8 @@
 #cookies使用
 ./test_selenium/test_weixin.py
 
+#第7次作业
+#appium的使用
+./appium_practice/test_appium.py
+
 
