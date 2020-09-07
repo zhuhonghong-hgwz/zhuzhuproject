@@ -36,4 +36,11 @@
 #appium的使用
 ./appium_practice/test_appium.py
 
+#第八次作业
+#appium定位方式的使用
+.\appium_practice2\datas\catact.yml
+.\appium_practice2\test_weixin_contact.py
+
+
+
 

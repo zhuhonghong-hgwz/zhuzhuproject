@@ -15,7 +15,7 @@ class TestWeixin:
         # 不请空缓存，用于记住上一次的弹框或登录等信息
         caps["noReset"] = "True"
         # 客户端与appium server端建立连接，同时打开欢迎页appActivity
-        self.driver = webdriver.Remote("http://127。0.0.1:4723/wd/hub", caps)
+        self.driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub", caps)
         # 隐式等待，增加查找元素时的稳定性
         self.driver.implicitly_wait(5)
 
