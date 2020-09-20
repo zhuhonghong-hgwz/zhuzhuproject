@@ -42,5 +42,18 @@
 .\appium_practice2\test_weixin_contact.py
 
 
+#接口自动化测试：企业微信实战2##
+##单接口字段校验用例
+.\test_api\test_get_token.py
+.\test_api\test_tags_manager.py
+##业务流程相关用例
+.\test_api\test_tags.py
+##使用api object 设计模式进行改造
+.\test_api\api\tags.py
+.\test_api\api\wework.py
+.\test_api\testcases\test_tags.py
+
+
+
 
 
