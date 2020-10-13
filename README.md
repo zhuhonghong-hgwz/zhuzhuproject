@@ -53,6 +53,11 @@
 .\test_api\api\wework.py
 .\test_api\testcases\test_tags.py
 
+-------------------------------
+#WEB UI自动化企业微信实战PO思想封装
+.\weixin_selenium_po\pages
+.\weixin_selenium_po\testcases
+-----------------------------
 
 
 
