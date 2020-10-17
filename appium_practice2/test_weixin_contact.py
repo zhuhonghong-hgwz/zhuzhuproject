@@ -150,3 +150,5 @@ class TestWeixinContact:
             # 断言再次查找到的元素个数比原来查找到的少一个，则删除成功
             assert afternum == beforenum - 1
 
+if __name__=='__main__':
+    pytest.main()

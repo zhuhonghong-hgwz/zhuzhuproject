@@ -10,5 +10,7 @@ class WeWork():
         corp_secrect = "jfF4mymhHtk-b4kb7VmJ1vrlyBCnrqaeKpFx7t2oF6Y"
         get_token_url = f" https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid={corp_id}&corpsecret={corp_secrect}"
         r = requests.get(url=get_token_url)
+        #定义一个公共属性供子类调用
+        self.token=r.json()['access_token']
         #返回token值供其他方法调用
-        return r.json()['access_token']
+        return self.token
