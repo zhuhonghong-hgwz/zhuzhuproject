@@ -58,6 +58,11 @@
 .\weixin_selenium_po\pages
 .\weixin_selenium_po\testcases
 -----------------------------
+-------------------------------
+#appium自动化企业微信实战PO思想封装
+.\appium_weixin_po\pages
+.\appium_weixin_po\testcases
+-----------------------------
 
 
 
