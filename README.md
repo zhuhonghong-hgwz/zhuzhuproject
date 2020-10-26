@@ -63,7 +63,14 @@
 .\appium_weixin_po\pages
 .\appium_weixin_po\testcases
 -----------------------------
-
+-------------------------------
+#接口自动化测试：企业微信实战3##
+\test_api\api\tags.py
+.\test_api\api\wework.py
+.\test_api\testcases\test_tags.py
+.\test_api\api\base_api.py
+.\test_api\testcases\config.yaml
+-----------------------------
 
 
 
